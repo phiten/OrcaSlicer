@@ -2284,6 +2284,10 @@ void TabPrint::build()
         optgroup->append_single_option_line("wipe_tower_max_purge_speed");
         optgroup->append_single_option_line("wipe_tower_no_sparse_layers");
         optgroup->append_single_option_line("single_extruder_multi_material_priming");
+	optgroup->append_single_option_line("wall_filament");
+        optgroup->append_single_option_line("sparse_infill_filament");
+        optgroup->append_single_option_line("solid_infill_filament");
+        optgroup->append_single_option_line("wipe_tower_filament");
 
         optgroup = page->new_optgroup(L("Filament for Features"));
         optgroup->append_single_option_line("wall_filament");
